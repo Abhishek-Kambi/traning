@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Add Task</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+	
+		<h2 style="text-align: center;">Add Task</h2>
+			
+		<form action="" method="">
+
+			<div class="row justify-content-around">
+                <div class="col-4">
+                	<label style="text-align: left;">Taskid:<sup style="color: red; font-weight: bold;">*</sup></label>
+		            <input type="text" class="form-control" name="taskid" placeholder="Enter taskId"  style="width: 500px;" required="required">
+                </div>
+                <div class="col-4">
+                	<label style="text-align: left;">Task Name:<sup style="color: red; font-weight: bold;">*</sup></label>
+		            <input type="text" class="form-control" name="taskname" placeholder="Enter task name" required="required" style="width: 500px;">
+                </div>
+            </div>
+            <br>
+
+
+            <div class="row justify-content-around">
+                <div class="col-4">
+                	<label style="text-align: left;">Task Description<sup style="color: red; font-weight: bold;">*</sup></label>
+		            <textarea class="form-control" name="description" placeholder="Enter Description" required="required" style="width: 500px;" ></textarea>
+                </div>
+                <div class="col-4">
+                	<label style="text-align: left;">Notes:<sup style="color: red; font-weight: bold;">*</sup></label>
+		            <textarea class="form-control" name="notes" placeholder="Enter Additional notes" required="required" style="width: 500px;" ></textarea>
+                </div>
+            </div>
+            <br>
+
+           
+            <br>
+
+           
+            <div class="row justify-content-around">
+                <div class="col-4">
+                	<label style="text-align: left;">OwnerId:<sup style="color: red; font-weight: bold;">*</sup></label>
+		            <select class="form-control" required="required" style="width: 500px;">
+		            	<option>Select</option>
+		            	<option>21290</option>
+		            	<option>21291</option>
+		            	<option>21292</option>
+		            	<option>21293</option>
+		            	<option>21294</option>
+		            	<option>21295</option>
+		            	<option>21296</option>
+		            </select>
+                </div>
+                <div class="col-4">
+                	<label style="text-align: left;">CreatorId:<sup style="color: red; font-weight: bold;">*</sup></label>
+		            <select class="form-control" required="required" style="width: 500px;">
+		            	<option>Select</option>
+		            	<option>21290</option>
+		            	<option>21291</option>
+		            	<option>21292</option>
+		            	<option>21293</option>
+		            	<option>21294</option>
+		            	<option>21295</option>
+		            	<option>21296</option>
+		            </select>
+
+                </div>
+            </div>
+            <br>
+
+            <div class="row justify-content-around">
+                <div class="col-4">
+                	<label style="text-align: left;">Created On:<sup style="color: red; font-weight: bold;">*</sup></label>
+		            <input type="date" class="form-control" name="bookmar"  required="required" style="width: 500px;">
+                </div>
+                <div class="col-4">
+                	<label style="text-align: left;">Modified On:<sup style="color: red; font-weight: bold;">*</sup></label>
+		            <input type="date" class="form-control" name="bookmar"  required="required" style="width: 500px;">
+
+                </div>
+            </div>
+            <br>
+
+
+            <div class="row justify-content-around">
+                <div class="col-4">
+                	<label style="text-align: left;">Priority:<sup style="color: red; font-weight: bold;">*</sup></label>&nbsp;
+                	<input type="radio" name="high" value="1"><label>&nbsp;High</label><br>
+                	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="medium" value="2"><label>&nbsp;Medium</label><br>
+                	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="low" value="3"><label>&nbsp;Low</label>
+		            
+                </div>
+                <div class="col-4">
+                	<label style="text-align: left;">Status:<sup style="color: red; font-weight: bold;">*</sup></label>&nbsp;
+                	
+                    <select class="form-control" required="required" style="width: 500px;">
+		            	<option selected="Open">Select</option>
+                        <option>Must Open</option>
+                        <option>Closed</option>
+		            	<option>Yet to start</option>
+		            	<option>In Progress</option>
+		            	<option>On Hold</option>
+		            	<option>Cancelled</option>
+		            </select>
+                 
+                </div>
+            </div>
+            <br>
+
+            <center>
+                	<div class="col-4">
+                	<button type="submit" class="btn btn-success">Create</button>
+                    <button onclick="document.location='login.html'" class="btn" style="background-color: red;">Back</button>
+                </div>
+            </center>	        
+	</form>
+			
+		
+		
+	
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

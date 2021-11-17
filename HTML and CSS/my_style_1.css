@@ -1,0 +1,13 @@
+header {
+    color: green;
+    font-style: italic;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace; 
+    background-color: yellow;  
+}
+
+footer {
+    color: aqua;
+    background-color: blue;
+    font-family: 'Times New Roman', Times, serif;
+}

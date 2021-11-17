@@ -1,0 +1,35 @@
+ul {
+    color: blue;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ol {
+    color: red;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+dl {
+    color: green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: initial;
+    font-size: 30px;
+}
+
+
+.tab_head {
+    font-style: italic;
+    font-style: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.odd {
+    color:white;
+    font-family: monospace;
+}
+
+.even {
+    color: aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
